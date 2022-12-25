@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --maincolor: #d05dd0;
+}
+
+#app-header {
+  color: #fff;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #222;
+  box-shadow: 0px 5px 100px #efefef;
+  padding: 1em;
+}
+
+#header-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#header-ul li {
+  list-style: none;
+}
+
+#header-ul li a:hover{
+  color: var(--maincolor)
+}
