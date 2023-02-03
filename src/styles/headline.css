@@ -6,7 +6,7 @@
 }
 
 #headlines {
-  height: 80vh;
+  height: calc(100vh - 80px);
   width: 70%;
   color: #fff;
   display: flex;
