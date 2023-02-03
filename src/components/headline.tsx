@@ -1,5 +1,5 @@
 import '../styles/headline.css'
-
+import imageToAdd from "./../assets/headline-img.png";
 const Headline = () => (
   <section id="headlines">
     <div className="headlines-information">
@@ -18,6 +18,7 @@ const Headline = () => (
         experience! If you like what you see and have a project you need coded,
         don’t hestiate to contact me.</p>
     </div>
+    <div></div>
     <div className='social-media'>
       <ul className="social-icons">
         <li><a href="#"><i className="fa fa-github"></i></a></li>
@@ -26,8 +27,8 @@ const Headline = () => (
         <li><a href="#"><i className="fa fa-medium"></i></a></li>
         <li><a href="#"><i className="fa fa-angellist"></i></a></li>
       </ul>
+      <img src={imageToAdd} alt='person animated coding' id='headline-img' />
     </div>
-    <img src='#' alt='person animated coding' />
   </section>
 )
 export default Headline

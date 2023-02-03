@@ -77,6 +77,14 @@
   display: block;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .social-media .social-icons {
   display: flex;
   flex-wrap: wrap;
@@ -134,10 +142,12 @@
   background: #000;
 }
 
-#headlines .social-media .social-icons a:hover > i{
-  -webkit-background-clip: text;
-}
 
+#headline-img {
+  width: 350px;
+  height: 350px;
+ 
+}
 
 /* keyframes */
 /* The typing effect */
