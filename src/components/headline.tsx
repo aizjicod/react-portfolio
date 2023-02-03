@@ -5,10 +5,10 @@ const Headline = () => (
     <div className="headlines-information">
       <h1 className='headlines-information__h1'>
         <div className='typying-block'>
-        <span className='typying-effect' />
-        <span className='h1-title'>Hey there!!</span>
+          <span className='typying-effect' />
+          <span className='h1-title'>Hey there!!</span>
         </div>
-        I'm Alejandro Torres
+        <span className='h1-title'>I'm Alejandro Torres</span>
       </h1>
       <p className='headline-para'>
         I'm a Software Developer
@@ -17,6 +17,15 @@ const Headline = () => (
         I can help you build a product , feature or website Look through some of my work and
         experience! If you like what you see and have a project you need coded,
         don’t hestiate to contact me.</p>
+    </div>
+    <div className='social-media'>
+      <ul className="social-icons">
+        <li><a href="#"><i className="fa fa-github"></i></a></li>
+        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i className="fa fa-medium"></i></a></li>
+        <li><a href="#"><i className="fa fa-angellist"></i></a></li>
+      </ul>
     </div>
     <img src='#' alt='person animated coding' />
   </section>
