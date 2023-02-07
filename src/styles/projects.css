@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 :root {
   --maincolor: #d05dd0;
   --secondarycolor: #920292;
@@ -37,4 +38,68 @@
   padding: 30px 100px;
   border-bottom: 4px solid var(--maincolor);
   border-right: 4px solid var(--maincolor);
+}
+
+#projects-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.project-card .card-img {
+  width: 500px;
+  height: 300px;
+}
+
+.project-card .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card .content h3{
+  color: var(--maincolor);
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  font-family: 'Itim', cursive;
+}
+
+.project-card .content p{
+  width: 100%;
+  letter-spacing: 0.2em;
+}
+
+.project-card .content .card-button{
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  background: transparent;
+  padding: 0.3em 1.3em;
+  border-bottom: 4px double #fff;
+  border-right: 4px double #fff;
+  border-top: 4px double var(--maincolor);
+  border-left: 4px double var(--maincolor);
+  transition: 0.3s all;
+}
+
+.project-card .content .card-button:hover{
+  border-top: 4px double #fff;
+  border-left: 4px double #fff;
+  border-bottom: 4px double var(--maincolor);
+  border-right: 4px double var(--maincolor);
 }

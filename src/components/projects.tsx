@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2>Projects</h2>
-      <ul>
+      <ul id='projects-container'>
         {projectsData.map((project) => <ProjectLi {...project} key={project.name} />)}
       </ul>
     </section>
