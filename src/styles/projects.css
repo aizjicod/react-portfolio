@@ -64,30 +64,21 @@
 }
 
 .project-card {
+  width: 100%;
   color: #fff;
   list-style: none;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
   position: absolute;
-  display: none;
+  opacity: 1;
+  transition: all 0.5s linear ;
+}
+
+.hidden {
   opacity: 0;
 }
-
-.center {
-  left: 0;
-  display: flex;
-  opacity: 1;
-}
-
-.next {
-  left: 500000px
-}
-
-.prev {
-  left: -5000000px;
-}
-
 
 .project-card .card-img {
   width: 500px;
@@ -134,4 +125,22 @@
   border-left: 4px double #fff;
   border-bottom: 4px double var(--maincolor);
   border-right: 4px double var(--maincolor);
+}
+
+@keyframes appear-left {
+  from {
+    left: -30000px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes appear-rigth {
+  from {
+    left: 30000px;
+  }
+  to {
+    left: 0;
+  }
 }

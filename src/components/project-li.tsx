@@ -1,7 +1,7 @@
-type props = { name: string, description: string, techUsed: string[], cardImg: string, codeLive: string, codeSource: string, position:string }
+type props = { name: string, description: string, techUsed: string[], cardImg: string, codeLive: string, codeSource: string, position:boolean }
 
 const ProjectLi = (projectdata:props) => (
-  <li className={`project-card ${projectdata.position}`}>
+  <li className={`project-card ${projectdata.position ? 'hidden' : ''}`.trim()}>
     <img src={projectdata.cardImg} alt={projectdata.name} className='card-img' />
     <div className='content'>
       <h3>{projectdata.name}</h3>
