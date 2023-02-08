@@ -12,7 +12,7 @@ const projectsData: project[] = [
   {
     name: 'Pokemon',
     description: 'Pokemon is a web-app that simulates a Pokedex showing the pokemon of a certain type. The user can choose the type of pokemon they want to see. The app will show the pokemon of that type. The user can see the name, type, and image of the pokemon. The user can also see the games the pokemon is in.',
-    techUsed: ['Javascripts', 'jest', 'Webpack', 'css', 'html'],
+    techUsed: ['javascript', 'jest', 'Webpack', 'css', 'html'],
     cardImg: pokemon,
     codeLive: 'https://fourteen98.github.io/Pokemon/dist/',
     codeSource: 'https://github.com/Fourteen98/Pokemon',

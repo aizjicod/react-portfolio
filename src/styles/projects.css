@@ -46,13 +46,23 @@
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
+  height: 50vh;
 }
 
 #projects-container #next-button,
 #projects-container #prev-button {
+  border: none;
   position: absolute;
   color: #fff;
   top: 130px;
+  background: transparent;
+  font-size: 1.3em;
+  padding: 0.5em 1em;
+}
+
+#projects-container #next-button[disabled],
+#projects-container #prev-button[disabled] {
+  opacity: 0.5;
 }
 
 #projects-container #next-button {
