@@ -56,27 +56,36 @@
 }
 
 #projects-container #next-button {
-  left: -100px;
+  left: 110%;
 }
 
 #projects-container #prev-button {
-  left: 110%;
+  left: -100px;
 }
 
 .project-card {
   color: #fff;
   list-style: none;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
   position: absolute;
-}
-
-.project-card:nth-child(n+3) {
   display: none;
   opacity: 0;
+}
+
+.center {
+  left: 0;
+  display: flex;
+  opacity: 1;
+}
+
+.next {
   left: 500000px
+}
+
+.prev {
+  left: -5000000px;
 }
 
 

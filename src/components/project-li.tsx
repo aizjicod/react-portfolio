@@ -1,6 +1,7 @@
-import { project as project_type } from '../modules/projects-data'
-const ProjectLi = (projectdata: project_type) => (
-  <li className='project-card'>
+type props = { name: string, description: string, techUsed: string[], cardImg: string, codeLive: string, codeSource: string, position:string }
+
+const ProjectLi = (projectdata:props) => (
+  <li className={`project-card ${projectdata.position}`}>
     <img src={projectdata.cardImg} alt={projectdata.name} className='card-img' />
     <div className='content'>
       <h3>{projectdata.name}</h3>
