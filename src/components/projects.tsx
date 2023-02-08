@@ -13,7 +13,9 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
       <ul id='projects-container'>
+        <div id='prev-button'>left</div>
         {projectsData.map((project) => <ProjectLi {...project} key={project.name} />)}
+        <div id='next-button'>rigth</div>
       </ul>
     </section>
   )
