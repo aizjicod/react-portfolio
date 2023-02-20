@@ -58,6 +58,7 @@
   background: transparent;
   font-size: 1.3em;
   padding: 0.5em 1em;
+  cursor: pointer;
 }
 
 #projects-container #next-button[disabled],
