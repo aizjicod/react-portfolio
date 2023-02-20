@@ -1,8 +1,16 @@
-const TechUl = (props: { name: string, description: string, techUsed: string[], cardImg: string, codeLive: string, codeSource: string }) => {
+import getIcon from "../modules/get-icon-tech"
+
+const TechUl = (props: string[]) => {
   return (
-    <ul>
-      {props.techUsed.map(tech => {
-        return <li key={tech}>{tech}</li>
+    <ul id="tech-ul">
+      <h3>Tech used for this project</h3>
+      {Object.entries(props).map(([key,value]) => {
+        return (
+          <li key={key} className="tech-li">
+            <p>{value}</p>
+            <img src={getIcon(value)} alt={value} className="tech-icons"/>
+          </li>
+        )
       })}
     </ul>
   )

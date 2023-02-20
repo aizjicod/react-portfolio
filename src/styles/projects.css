@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 :root {
   --maincolor: #d05dd0;
   --secondarycolor: #920292;
@@ -58,6 +59,7 @@
   background: transparent;
   font-size: 1.3em;
   padding: 0.5em 1em;
+  cursor: pointer;
 }
 
 #projects-container #next-button[disabled],
@@ -83,7 +85,7 @@
   gap: 20px;
   position: absolute;
   opacity: 1;
-  transition: all 0.5s linear ;
+  transition: all 0.5s linear;
 }
 
 .hidden {
@@ -103,7 +105,7 @@
   gap: 20px;
 }
 
-.project-card .content h3{
+.project-card .content h3 {
   color: var(--maincolor);
   text-align: center;
   width: 100%;
@@ -112,12 +114,12 @@
   font-family: 'Itim', cursive;
 }
 
-.project-card .content p{
+.project-card .content p {
   width: 100%;
   letter-spacing: 0.2em;
 }
 
-.project-card .content .card-button{
+.project-card .content .card-button {
   font-size: 1.2em;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -130,17 +132,47 @@
   transition: 0.3s all;
 }
 
-.project-card .content .card-button:hover{
+.project-card .content .card-button:hover {
   border-top: 4px double #fff;
   border-left: 4px double #fff;
   border-bottom: 4px double var(--maincolor);
   border-right: 4px double var(--maincolor);
 }
 
+#tech-ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+#tech-ul h3 {
+  width: 100%;
+  color: #fff;
+}
+
+#tech-ul .tech-li {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 8px;
+  animation: appear 1s;
+}
+
+#tech-ul .tech-li p {
+  color: #ffffff88;
+  font-size: 1.2em;
+}
+
+#tech-ul .tech-li img {
+  width: 60px;
+}
+
 @keyframes appear-left {
   from {
     left: -30000px;
   }
+
   to {
     left: 0;
   }
@@ -150,7 +182,18 @@
   from {
     left: 30000px;
   }
+
   to {
     left: 0;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }

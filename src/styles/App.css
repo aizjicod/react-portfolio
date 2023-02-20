@@ -32,6 +32,6 @@
   list-style: none;
 }
 
-#header-ul li a:hover{
+#header-ul li a:hover {
   color: var(--maincolor)
 }
