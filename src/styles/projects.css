@@ -141,13 +141,30 @@
 #tech-ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
+}
+
+#tech-ul h3{
+  width: 100%;
+  color: #fff;
 }
 
 #tech-ul .tech-li {
   display: flex;
-  justify-content: center;
   flex-direction: column-reverse;
+  align-items: center;
+  gap: 8px;
+  animation: appear 1s;
+}
+
+#tech-ul .tech-li p {
+  color: #ffffff88;
+  font-size: 1.2em;
+}
+
+#tech-ul .tech-li img {
+  width: 60px;
 }
 
 @keyframes appear-left {
@@ -165,5 +182,14 @@
   }
   to {
     left: 0;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
