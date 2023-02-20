@@ -12,25 +12,25 @@ import apiIcon from "../assets/projects-tech/Api.png"
 const getIcon = (img: string) => {
   switch (img) {
     case "React":
-    return <img src={reactIcon}/>
+    return reactIcon
     case "CSS":
-    return <img src={cssIcon}/>
+    return cssIcon
     case "HTML":
-    return <img src={htmlIcon}/>
+    return htmlIcon
     case "JavaScript":
-    return <img src={javaScriptIcon}/>
+    return javaScriptIcon
     case "Ruby":
-    return <img src={rubyIcon}/>
+    return rubyIcon
     case "Redux":
-    return <img src={reduxIcon}/>
+    return reduxIcon
     case "Jest":
-    return <img src={jestIcon}/>
+    return jestIcon
     case "Webpack":
-    return <img src={webpackIcon}/>
+    return webpackIcon
     case "API":
-    return <img src={apiIcon}/>
+    return apiIcon
     default: 
-    return <img src={rubyOnRailsIcon}/>
+    return rubyOnRailsIcon
   }
 }
 

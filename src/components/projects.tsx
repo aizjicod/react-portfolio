@@ -27,7 +27,7 @@ const Projects = () => {
           <i className="fa fa-arrow-right" aria-hidden="true"></i>
         </button>
       </ul>
-      <TechUl {...projectsData[projectIndex]} />
+      <TechUl {...projectsData[projectIndex].techUsed.sort()} />
     </section >
   )
 }

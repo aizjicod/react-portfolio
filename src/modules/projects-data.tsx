@@ -44,7 +44,7 @@ const projectsData: project[] = [
   {
     name: 'Weather app',
     description: 'This app was created using an API. the user can search for a certain location. after the location is fetch it will return a list of different location that matches the input.',
-    techUsed: ['Redux', 'React', 'JavaScript', 'API'],
+    techUsed: ['Redux', 'React', 'JavaScript', 'API', 'HTML', 'CSS'],
     cardImg: weather,
     codeLive: 'https://weather-aiziji.netlify.app/',
     codeSource: 'https://github.com/aizjicod/weather-app-react',
@@ -52,7 +52,7 @@ const projectsData: project[] = [
   {
     name: 'Bike rental',
     description: 'A Rails API as a backend, and React front-end project. The user can signup or log in, then it will be redirected to the home page after a successful login. The user can see all the models of bikes on the page, after clicking them the user can add a reservation to a specific bike and if the user wants to add or delete a reservation.',
-    techUsed: ['React', 'Redux', 'HTML', 'CSS', 'API', 'Ruby on Rails'],
+    techUsed: ['React', 'Redux', 'HTML', 'CSS', 'API', 'Ruby on Rails', 'JavaScript'],
     cardImg: bike_rental,
     codeLive: 'https://ducati-rentals.netlify.app/',
     codeSource: 'https://github.com/AbrahaKahsay/final-capstone-frontend',

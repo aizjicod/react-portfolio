@@ -1,13 +1,13 @@
 import getIcon from "../modules/get-icon-tech"
 
-const TechUl = (props: { name: string, description: string, techUsed: string[], cardImg: string, codeLive: string, codeSource: string }) => {
+const TechUl = (props: string[]) => {
   return (
-    <ul>
-      {props.techUsed.map(tech => {
+    <ul id="tech-ul">
+      {Object.entries(props).map(([key,value]) => {
         return (
-          <li key={tech}>
-            {tech}
-            {getIcon(tech)}
+          <li key={key} className="tech-li">
+            {value}
+            <img src={getIcon(value)} alt={value} className="tech-icons"/>
           </li>
         )
       })}

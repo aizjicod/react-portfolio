@@ -138,6 +138,18 @@
   border-right: 4px double var(--maincolor);
 }
 
+#tech-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+#tech-ul .tech-li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
 @keyframes appear-left {
   from {
     left: -30000px;
