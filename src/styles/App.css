@@ -19,6 +19,9 @@
   background: #222;
   box-shadow: 0px 5px 100px #efefef;
   padding: 1em;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
 #header-ul {
