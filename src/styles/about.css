@@ -1,0 +1,29 @@
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#about #presentation {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 18px;
+  padding: 50px;
+}
+
+#about #presentation h2 {
+  font-size: 2.5em;
+  color: var(--maincolor);
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+#about #presentation p {
+  font-size: 1.5em;
+  color: #ffffff88;
+}
