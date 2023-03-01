@@ -12,7 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  gap: 20px;
+  gap: 25px;
   padding: 50px;
 }
 
@@ -27,7 +27,7 @@
   text-align: start;
   max-width: 70%;
   font-size: 1.5em;
-  color: #ffffff89;
+  color: #ffffff;
 }
 
 #about #presentation .button-div {
@@ -54,4 +54,31 @@
   border-left: 4px double #fff;
   border-bottom: 4px double var(--maincolor);
   border-right: 4px double var(--maincolor);
+}
+
+#about #skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#about #skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+}
+
+#about #skills ul li {
+  width: 100%;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+#about #skills ul h3 {
+  width: 100%;
+  font-size: 2em;
+  color: var(--maincolor);
 }

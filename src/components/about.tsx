@@ -15,7 +15,7 @@ const About = () => (
       </div>
     </article>
     <article id="skills">
-      <ul>
+      <ul className="language">
         <h3>Language</h3>
         <li>Javascript</li>
         <li>Ruby</li>
@@ -23,7 +23,7 @@ const About = () => (
         <li>Css</li>
         <li>TypeScript</li>
       </ul>
-      <ul>
+      <ul className="frameworks">
         <h3>Frameworks</h3>
         <li>Ruby on Rails</li>
         <li>React</li>
@@ -32,7 +32,7 @@ const About = () => (
         <li>CapyBara</li>
         <li>Selenium</li>
       </ul>
-      <ul>
+      <ul className="skills">
         <h3>Skills</h3>
         <li>Codekit</li>
         <li>Github</li>
