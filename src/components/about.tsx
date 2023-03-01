@@ -8,11 +8,13 @@ const About = () => (
       <p>
         Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
       </p>
-      <button type="button" >
-        <a href={Pdf} target="_blank">Download Pdf</a>
-      </button>
+      <div className="button-div">
+        <button type="button" >
+          <a href={Pdf} target="_blank">Get My Resume</a>
+        </button>
+      </div>
     </article>
-    <article>
+    <article id="skills">
       <ul>
         <h3>Language</h3>
         <li>Javascript</li>
