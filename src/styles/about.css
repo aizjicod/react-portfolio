@@ -1,0 +1,166 @@
+#about {
+  padding-top: 100px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#about #presentation {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 30px;
+  padding: 50px;
+}
+
+#about #presentation::before {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  content: "";
+  width: 150px;
+  height: 1px;
+  border-bottom: 12px double #fff;
+  transform: rotate(40deg);
+}
+
+#about #presentation::after {
+  position: absolute;
+  top: 53.5%;
+  left: 80%;
+  content: "";
+  width: 150px;
+  height: 1px;
+  border-top: 12px double var(--maincolor);
+  transform: rotate(-40deg);
+}
+
+#about #presentation h2 {
+  width: 100%;
+  font-size: 2.5em;
+  color: var(--maincolor);
+  text-align: left;
+}
+
+#about #presentation p {
+  text-align: start;
+  max-width: 70%;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+#about #presentation .button-div {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+#about #presentation .button-div button {
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  background: transparent;
+  padding: 0.3em 1.3em;
+  border-bottom: 4px double #fff;
+  border-right: 4px double #fff;
+  border-top: 4px double var(--maincolor);
+  border-left: 4px double var(--maincolor);
+  transition: 0.3s all;
+}
+
+#about #presentation .button-div button:hover {
+  border-top: 4px double #fff;
+  border-left: 4px double #fff;
+  border-bottom: 4px double var(--maincolor);
+  border-right: 4px double var(--maincolor);
+}
+
+#about #skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#about #skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#about #skills ul h3 {
+  width: 100%;
+  font-size: 2em;
+  color: var(--maincolor);
+}
+
+#about #skills ul li {
+  width: 100%;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+#about #skills ul.language::before,
+#about #skills ul.language::after,
+#about #skills ul.frameworks::before,
+#about #skills ul.frameworks::after,
+#about #skills ul.skills::before,
+#about #skills ul.skills::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: no-repeat;
+}
+
+#about #skills ul.language::before {
+  top: 30%;
+  left: 35%;
+  background-image: url('../assets//projects-tech/JavaScript.png');
+  transform: rotate(20deg);
+}
+
+#about #skills ul.language::after {
+  top: 70%;
+  left: 60%;
+  background: no-repeat;
+  background-image: url('../assets//projects-tech/Ruby.png');
+}
+
+#about #skills ul.frameworks::before {
+  top: 60%;
+  left: 35%;
+  background-image: url('../assets//projects-tech/React.png');
+  transform: rotate(45deg);
+}
+
+#about #skills ul.frameworks::after {
+  top: 30%;
+  left: 60%;
+  background: no-repeat;
+  background-image: url('../assets//projects-tech/Redux.png');
+  transform: rotate(-20deg);
+}
+
+#about #skills ul.skills::before {
+  top: 60%;
+  left: 33%;
+  background-image: url('../assets//projects-tech/terminal.png');
+  transform: rotate(20deg);
+}
+
+#about #skills ul.skills::after {
+  top: 30%;
+  left: 58%;
+  background: no-repeat;
+  background-image: url('../assets/projects-tech/netlify.png');
+}
