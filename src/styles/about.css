@@ -8,12 +8,35 @@
 }
 
 #about #presentation {
+  position: relative;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  gap: 25px;
+  gap: 30px;
   padding: 50px;
+}
+
+#about #presentation::before {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  content: "";
+  width: 150px;
+  height: 1px;
+  border-bottom: 12px double #fff;
+  transform: rotate(40deg);
+}
+
+#about #presentation::after {
+  position: absolute;
+  top: 53.5%;
+  left: 80%;
+  content: "";
+  width: 150px;
+  height: 1px;
+  border-top: 12px double var(--maincolor);
+  transform: rotate(-40deg);
 }
 
 #about #presentation h2 {
