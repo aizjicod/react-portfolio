@@ -1,6 +1,6 @@
 import Pdf from "./../assets/documents/Resumen.pdf"
 import '../styles/about.css'
-
+// add a background for skills with the same name and blurry
 const About = () => (
   <section id="about">
     <article id="presentation">
