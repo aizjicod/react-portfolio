@@ -35,6 +35,7 @@
 #contact #contact-form .button-div {
   width: 100%;
 }
+
 #contact #contact-form textarea {
   resize: vertical;
   max-height: 300px;
@@ -89,9 +90,9 @@
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px var(--maincolor),
-              0 0 25px var(--maincolor),
-              0 0 50px var(--maincolor),
-              0 0 100px var(--maincolor);
+    0 0 25px var(--maincolor),
+    0 0 50px var(--maincolor),
+    0 0 100px var(--maincolor);
 }
 
 .button-div button span {
@@ -112,7 +113,9 @@
   0% {
     left: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     left: 100%;
   }
 }
@@ -131,7 +134,9 @@
   0% {
     top: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     top: 100%;
   }
 }
@@ -150,7 +155,9 @@
   0% {
     right: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     right: 100%;
   }
 }
@@ -169,7 +176,9 @@
   0% {
     bottom: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     bottom: 100%;
   }
 }
