@@ -35,6 +35,10 @@
 #contact #contact-form .button-div {
   width: 100%;
 }
+#contact #contact-form textarea {
+  resize: vertical;
+  max-height: 300px;
+}
 
 #contact #contact-form input,
 #contact #contact-form textarea {
