@@ -1,5 +1,5 @@
 #about {
-  padding-top: 100px;
+  padding: 100px 0;
   width: 70%;
   display: flex;
   justify-content: center;
@@ -83,8 +83,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
+  gap: 25px;
 }
 
 #about #skills ul {
@@ -93,17 +92,6 @@
   flex-wrap: wrap;
   gap: 8px;
   list-style: none;
-  position: relative;
-  width: 100%;
-  position: relative;
-}
-
-#about #skills ul.language {
-  left: -30%;
-}
-
-#about #skills ul.skills {
-  left: 30%;
 }
 
 #about #skills ul h3 {
@@ -133,28 +121,28 @@
 
 #about #skills ul.language::before {
   top: 30%;
-  left: 35%;
+  left: 0;
   background-image: url('../assets//projects-tech/JavaScript.png');
   transform: rotate(20deg);
 }
 
 #about #skills ul.language::after {
   top: 70%;
-  left: 60%;
+  left: 70%;
   background: no-repeat;
   background-image: url('../assets//projects-tech/Ruby.png');
 }
 
 #about #skills ul.frameworks::before {
   top: 60%;
-  left: 35%;
+  left: 10%;
   background-image: url('../assets//projects-tech/React.png');
   transform: rotate(45deg);
 }
 
 #about #skills ul.frameworks::after {
   top: 30%;
-  left: 60%;
+  left: 70%;
   background: no-repeat;
   background-image: url('../assets//projects-tech/Redux.png');
   transform: rotate(-20deg);
@@ -162,14 +150,14 @@
 
 #about #skills ul.skills::before {
   top: 60%;
-  left: 33%;
+  left: -10%;
   background-image: url('../assets//projects-tech/terminal.png');
   transform: rotate(20deg);
 }
 
 #about #skills ul.skills::after {
   top: 30%;
-  left: 58%;
+  left: 70%;
   background: no-repeat;
   background-image: url('../assets/projects-tech/netlify.png');
 }

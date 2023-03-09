@@ -30,7 +30,7 @@ const About = () => {
         <li>TypeScript</li>
       </ul>
       <ul className="frameworks" data-aos="flip-left" data-aos-duration="500" data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+     data-aos-easing="ease-in-sine" data-aos-delay="300">
         <h3>Frameworks</h3>
         <li>Ruby on Rails</li>
         <li>React</li>
@@ -40,7 +40,7 @@ const About = () => {
         <li>Selenium</li>
       </ul>
       <ul className="skills" data-aos="flip-left" data-aos-duration="500" data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+     data-aos-easing="ease-in-sine" data-aos-delay="600">
         <h3>Skills</h3>
         <li>Codekit</li>
         <li>Github</li>
