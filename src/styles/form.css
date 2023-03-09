@@ -69,7 +69,7 @@
   justify-content: start;
 }
 
-.button-div button {
+#contact #contact-form .button-div button {
   background: transparent;
   border: none;
   position: relative;
@@ -85,7 +85,7 @@
   letter-spacing: 4px
 }
 
-.button-div button:hover {
+#contact #contact-form .button-div button:hover {
   background: var(--maincolor);
   color: #fff;
   border-radius: 5px;
@@ -95,12 +95,12 @@
     0 0 100px var(--maincolor);
 }
 
-.button-div button span {
+#contact #contact-form .button-div button span {
   position: absolute;
   display: block;
 }
 
-.button-div button span:nth-child(1) {
+#contact #contact-form .button-div button span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -120,7 +120,7 @@
   }
 }
 
-.button-div button span:nth-child(2) {
+#contact #contact-form .button-div button span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -141,7 +141,7 @@
   }
 }
 
-.button-div button span:nth-child(3) {
+#contact #contact-form .button-div button span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -162,7 +162,7 @@
   }
 }
 
-.button-div button span:nth-child(4) {
+#contact #contact-form .button-div button span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
