@@ -95,6 +95,15 @@
   list-style: none;
   position: relative;
   width: 100%;
+  position: relative;
+}
+
+#about #skills ul.language {
+  left: -30%;
+}
+
+#about #skills ul.skills {
+  left: 30%;
 }
 
 #about #skills ul h3 {
