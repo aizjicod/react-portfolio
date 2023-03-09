@@ -146,7 +146,8 @@
 #headline-img {
   width: 350px;
   height: 350px;
-
+  position: relative;
+  animation: img-animation 5s infinite ease-in-out;
 }
 
 /* keyframes */
@@ -171,5 +172,17 @@
 
   50% {
     border-color: var(--secondarycolor);
+  }
+}
+
+@keyframes img-animation {
+
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50% {
+    top: 10px;
   }
 }
