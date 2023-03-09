@@ -176,10 +176,13 @@
 }
 
 @keyframes img-animation {
-  0%,100%{
+
+  0%,
+  100% {
     top: 0;
   }
-  50%{
+
+  50% {
     top: 10px;
   }
 }
