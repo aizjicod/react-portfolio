@@ -38,3 +38,50 @@
 #header-ul li a:hover {
   color: var(--maincolor)
 }
+
+.mb,
+#header-ul.mb {
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  .mb {
+    display: block;
+  }
+
+  #header-ul {
+    display: none;
+  }
+
+  #header-ul.mb.show {
+    font-size: 1.5em;
+    background: inherit;
+    width: 100%;
+    padding: 20%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 3em;
+    position: fixed;
+    top: 5%;
+  }
+
+  .burger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .burger-btn span {
+    background: #fff;
+    display: block;
+    width: 20px;
+    height: 3px;
+  }
+}
