@@ -21,11 +21,11 @@ const Headline = () => (
     <div></div>
     <div className='social-media'>
       <ul className="social-icons">
-        <li><a href="#"><i className="fa fa-github"></i></a></li>
-        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i className="fa fa-medium"></i></a></li>
-        <li><a href="#"><i className="fa fa-angellist"></i></a></li>
+        <li><a href="https://github.com/aizjicod"><i className="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/aizijijr"><i className="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/aiziji/"><i className="fa fa-linkedin"></i></a></li>
+        <li><a href="https://medium.com/@aletv1501"><i className="fa fa-medium"></i></a></li>
+        <li><a href="https://angel.co/u/aiziji"><i className="fa fa-angellist"></i></a></li>
       </ul>
       <img src={imageToAdd} alt='person animated coding' id='headline-img' />
     </div>
