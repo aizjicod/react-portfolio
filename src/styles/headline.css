@@ -186,3 +186,9 @@
     top: 10px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #headlines {
+    padding-top: 350px;
+  }
+}
