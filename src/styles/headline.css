@@ -189,7 +189,38 @@
 
 @media screen and (max-width: 768px) {
   #headlines {
-    padding-top: 130px;
+    width: 90%;
+    height: max-content;
+    padding: 130px 0;
     flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .headlines-information {
+    width: 100%;
+  }
+
+  .headline-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #headline-img {
+    display: none;
+  }
+
+  #headlines .social-media .social-icons {
+    flex-direction: row;
+    font-size: 1.5em;
+  }
+
+  #headlines .social-media .social-icons li {
+    left: 0 !important;
+  }
+
+  #headlines .social-media .social-icons a {
+    width: 50px;
+    height: 50px;
   }
 }
