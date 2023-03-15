@@ -51,6 +51,7 @@
 
   #app-header {
     position: fixed;
+    box-shadow: 0px 1px 30px #efefef;
   }
 
   #header-ul {
