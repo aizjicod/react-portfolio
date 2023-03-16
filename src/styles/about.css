@@ -161,3 +161,34 @@
   background: no-repeat;
   background-image: url('../assets/projects-tech/netlify.png');
 }
+
+@media screen and (max-width: 768px) {
+  #about {
+    width: 100%;
+  }
+
+  #about #presentation {
+
+  }
+
+  #about #presentation p {
+    max-width: 100%;
+  }
+
+  #about #presentation::before,
+  #about #presentation::after {
+    display: none;
+  }
+
+  #about #presentation::after {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%) rotate(0);
+    content: "";
+    width: 90%;
+    height: 1px;
+    border-top: 12px double var(--maincolor);
+  }
+}
