@@ -228,4 +228,8 @@
   #projects-container #prev-button {
     display: none;
   }
+
+  #tech-ul {
+    display: none;
+  }
 }
