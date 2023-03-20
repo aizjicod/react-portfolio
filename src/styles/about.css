@@ -196,4 +196,19 @@
     gap: 50px;
   }
 
+  #about #skills ul.language::before {
+    top: 30%;
+    left: 10%;
+  }
+  
+  
+  #about #skills ul.skills::before {
+    top: 50%;
+    left: 5%;
+  }
+  
+  #about #skills ul.skills::after {
+    top: 30%;
+    left: 70%;
+  }
 }
