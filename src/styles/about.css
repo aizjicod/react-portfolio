@@ -92,6 +92,7 @@
   flex-wrap: wrap;
   gap: 8px;
   list-style: none;
+  position: relative;
 }
 
 #about #skills ul h3 {

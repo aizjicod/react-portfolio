@@ -182,3 +182,15 @@
     bottom: 100%;
   }
 }
+
+@media screen and (max-width: 768px){
+  #contact p {
+    width: 90%;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #contact #contact-form {
+    width: 80%;
+  }
+}
