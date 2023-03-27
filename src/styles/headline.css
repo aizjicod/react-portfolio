@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 50px;
 }
 
 .headlines-information {
@@ -81,7 +82,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 20px;
 }
 
