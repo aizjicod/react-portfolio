@@ -14,7 +14,7 @@ const Header = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact Me</a></li>
       </ul>
-      <div className="mb burger-btn" onClick={handleOnClick}>
+      <div className={`mb burger-btn ${clicked ? 'close' : ''}`.trim()} onClick={handleOnClick}>
         <span></span>
         <span></span>
         <span></span>

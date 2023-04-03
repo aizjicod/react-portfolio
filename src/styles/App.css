@@ -81,7 +81,19 @@
     gap: 4px;
     width: 40px;
     height: 40px;
+    position: relative;
     z-index: 99;
+  }
+
+  .burger-btn.close span:first-child {
+    transform: rotate(45deg);
+  }
+
+  .burger-btn.close span:nth-child(2) {display: none;}
+
+  .burger-btn.close span:last-child {
+    transform: rotate(-45deg);
+    position: absolute;
   }
 
   .burger-btn span {
@@ -89,5 +101,6 @@
     display: block;
     width: 20px;
     height: 3px;
+    transition: all 0.7s;
   }
 }
