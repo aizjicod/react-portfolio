@@ -47,7 +47,7 @@
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 #projects-container #next-button,
@@ -82,16 +82,19 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
-  position: absolute;
+  position: relative;
   opacity: 1;
   transition: all 0.5s linear;
   z-index: 2;
+  margin-bottom: 50px;
 }
 
 .hidden {
   opacity: 0;
   z-index: 1;
+  position: absolute;
 }
 
 .project-card .card-img {
@@ -100,6 +103,7 @@
 }
 
 .project-card .content {
+  flex: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
