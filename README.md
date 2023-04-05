@@ -11,13 +11,9 @@ The user can signup or login, then it will be redirected to the home page after 
 ## Built With
  ![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
- ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 -  React.js
--  Redux
 -  TypeScript
 -  Html
--  Linters: Eslint
--  Linters: [Stylent](https://stylelint.io/)
 -  Visual Studio Code (code editor)
 <hr>
 
