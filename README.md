@@ -5,7 +5,7 @@ The user can signup or login, then it will be redirected to the home page after 
 
 ## Live demo
 
-- [Portfolio](alejandro-aiziji-portfolio.netlify.app)
+- [Portfolio](https://alejandro-aiziji-portfolio.netlify.app/)
 <hr>
 
 ## Built With
