@@ -14,6 +14,7 @@ The user can signup or login, then it will be redirected to the home page after 
 -  React.js
 -  TypeScript
 -  Html
+-  [API used for transitions](https://michalsnik.github.io/aos/)
 -  Visual Studio Code (code editor)
 <hr>
 

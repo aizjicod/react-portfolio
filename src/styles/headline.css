@@ -18,10 +18,10 @@
 .headlines-information {
   width: 40%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 15px;
   flex-wrap: wrap;
-  text-align: start;
+  text-align: flex-start;
 }
 
 .headlines-information__h1 {
