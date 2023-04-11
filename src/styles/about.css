@@ -171,6 +171,10 @@
     gap: 150px;
   }
 
+  #about #presentation {
+    text-align: start;
+  }
+
   #about #presentation p {
     max-width: 100%;
   }

@@ -45,7 +45,6 @@
   flex-wrap: wrap;
 }
 
-
 .typying-effect {
   width: 100%;
   display: block;
@@ -194,6 +193,7 @@
     padding: 130px 0;
     flex-wrap: wrap;
     gap: 50px;
+    text-align: start;
   }
 
   .headlines-information {
