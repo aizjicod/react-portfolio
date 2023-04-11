@@ -12,7 +12,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 30px;
   padding: 50px;
 }
@@ -47,7 +47,7 @@
 }
 
 #about #presentation p {
-  text-align: start;
+  text-align: flex-start;
   max-width: 70%;
   font-size: 1.5em;
   color: #ffffff;
@@ -56,7 +56,7 @@
 #about #presentation .button-div {
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 #about #presentation .button-div button {
@@ -84,6 +84,7 @@
   display: flex;
   justify-content: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 #about #skills ul {
@@ -91,7 +92,9 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
+  flex: 0 0 300px;
   list-style: none;
+  position: relative;
 }
 
 #about #skills ul h3 {
@@ -160,4 +163,58 @@
   left: 70%;
   background: no-repeat;
   background-image: url('../assets/projects-tech/netlify.png');
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    width: 100%;
+    gap: 150px;
+  }
+
+  #about #presentation {
+    text-align: start;
+  }
+
+  #about #presentation p {
+    max-width: 100%;
+  }
+
+  #about #presentation::before,
+  #about #presentation::after {
+    display: none;
+  }
+
+  #about #presentation::after {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%) rotate(0);
+    content: "";
+    width: 90%;
+    height: 1px;
+    border-top: 12px double var(--maincolor);
+  }
+
+  #about #skills {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 50px;
+  }
+
+  #about #skills ul.language::before {
+    top: 30%;
+    left: 10%;
+  }
+  
+  
+  #about #skills ul.skills::before {
+    top: 50%;
+    left: 5%;
+  }
+  
+  #about #skills ul.skills::after {
+    top: 30%;
+    left: 70%;
+  }
 }

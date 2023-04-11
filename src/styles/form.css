@@ -12,7 +12,7 @@
   font-size: 2.5em;
   font-weight: 700;
   width: 30%;
-  text-align: start;
+  text-align: flex-start;
 }
 
 #contact #contact-form {
@@ -61,12 +61,12 @@
 
 #contact #contact-form .button-div {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 #contact #contact-form .button-div {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 #contact #contact-form .button-div button {
@@ -180,5 +180,17 @@
   50%,
   100% {
     bottom: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #contact p {
+    width: 90%;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #contact #contact-form {
+    width: 80%;
   }
 }

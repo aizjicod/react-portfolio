@@ -12,12 +12,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 50px;
 }
 
 .headlines-information {
   width: 40%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 15px;
   flex-wrap: wrap;
   text-align: start;
@@ -40,10 +41,9 @@
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   flex-wrap: wrap;
 }
-
 
 .typying-effect {
   width: 100%;
@@ -81,7 +81,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -184,5 +183,44 @@
 
   50% {
     top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #headlines {
+    width: 90%;
+    height: max-content;
+    padding: 130px 0;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: start;
+  }
+
+  .headlines-information {
+    width: 100%;
+  }
+
+  .headline-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #headline-img {
+    display: none;
+  }
+
+  #headlines .social-media .social-icons {
+    flex-direction: row;
+    font-size: 1.5em;
+  }
+
+  #headlines .social-media .social-icons li {
+    left: 0 !important;
+  }
+
+  #headlines .social-media .social-icons a {
+    width: 50px;
+    height: 50px;
   }
 }
