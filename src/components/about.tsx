@@ -27,7 +27,7 @@ const About = () => {
         </p>
         <div className="button-div">
           <button type="button" >
-            <a href={Pdf} target="_blank">Get My Resume</a>
+            <a href={Pdf} target="_blank" rel="noreferrer">Get My Resume</a>
           </button>
         </div>
       </article>
