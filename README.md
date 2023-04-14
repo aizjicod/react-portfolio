@@ -1,6 +1,7 @@
 # Portfolio 
-This is the front end of the final capstone.
-The user can signup or login, then it will be redirected to the home page after a successful login. The user can see all the models of bikes on the page, after clicking them the user can add a reservasion to a specific bike and if the user wants to add a reservasion without going through this procces it can be done by a link on the navbar. Additionally, the user can see their reservations, and create or delete a bike.
+
+This is my portfolio, this is made with TypeScript and react to practice and learning at the same time. On this portfolio I will be showcasing some of my most complex works while adding some animation on scroll.
+
 <hr>
 
 ## Live demo
