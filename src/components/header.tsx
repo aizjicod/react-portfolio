@@ -8,9 +8,9 @@ const Header = () => {
 
   return (
     <header id="app-header">
-      <div>Aiziji</div>
+      <div><a href="#headlines">Aiziji</a></div>
       <ul id="header-ul">
-        <li> <a href="#projects">Portfolio</a></li>
+        <li><a href="#projects">Portfolio</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact Me</a></li>
       </ul>
@@ -20,6 +20,7 @@ const Header = () => {
         <span></span>
       </div>
       <ul id="header-ul" className={`mb ${clicked ? 'show' : ''}`.trim()}>
+        <li> <a href="#headlines">Home</a></li>
         <li> <a href="#projects">Portfolio</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact Me</a></li>
