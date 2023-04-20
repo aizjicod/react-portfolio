@@ -230,7 +230,12 @@
     width: 90%;
   }
 
+  #projectsIndex-ul {
+    display: none;
+  }
+
   #projects-container {
+    margin-top: 50px;
     height: max-content;
     gap: 150px;
   }

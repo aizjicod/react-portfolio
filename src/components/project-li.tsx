@@ -6,8 +6,8 @@ const ProjectLi = (projectdata:props) => (
     <div className='content'>
       <h3>{projectdata.name}</h3>
       <p>{projectdata.description}</p>
-      <button type='button' className='card-button'> <a href={projectdata.codeLive}>See Live</a></button>
-      <button type='button' className='card-button'> <a href={projectdata.codeSource}>See source</a></button>
+      <button type='button' className='card-button'> <a href={projectdata.codeLive} target="_blank">See Live</a></button>
+      <button type='button' className='card-button'> <a href={projectdata.codeSource} target="_blank">See source</a></button>
     </div>
   </li>
 )

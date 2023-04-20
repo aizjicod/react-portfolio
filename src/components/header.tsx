@@ -20,10 +20,10 @@ const Header = () => {
         <span></span>
       </div>
       <ul id="header-ul" className={`mb ${clicked ? 'show' : ''}`.trim()}>
-        <li> <a href="#headlines">Home</a></li>
-        <li> <a href="#projects">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li> <a href="#headlines" onClick={handleOnClick}>Home</a></li>
+        <li> <a href="#projects" onClick={handleOnClick}>Portfolio</a></li>
+        <li><a href="#about" onClick={handleOnClick}>About</a></li>
+        <li><a href="#contact" onClick={handleOnClick}>Contact Me</a></li>
       </ul>
     </header>
   )
