@@ -11,7 +11,7 @@ export type project = { name: string, description: string, techUsed: string[], c
 const projectsData: project[] = [
   {
     name: 'Pokemon',
-    description: 'Pokemon is a web-app that simulates a Pokedex showing the pokemon of a certain type. The user can choose the type of pokemon they want to see. The app will show the pokemon of that type. The user can see the name, type, and image of the pokemon. The user can also see the games the pokemon is in.',
+    description: 'Pokemon is a web app that simulates a Pokedex showing the Pokemon of a certain type. The user can choose the type of Pokemon they want to see. The app shows the Pokemon of that type. The user can see the name, type, and image of the Pokemon. The user can also see the games the Pokemon is in.',
     techUsed: ['JavaScript', 'Jest', 'Webpack', 'CSS', 'HTML'],
     cardImg: pokemon,
     codeLive: 'https://fourteen98.github.io/Pokemon/dist/',
@@ -19,7 +19,7 @@ const projectsData: project[] = [
   },
   {
     name: 'To-do List',
-    description: 'on this project, I will be doing a to-do list. this project will be done with a template for webpack and with the following languages: CSS, HTML, and JavaScript',
+    description: 'This project is a to-do list. This project was made with a template for webpack and with the following languages: CSS, HTML, and JavaScript. The user can add, delete or modify the list.',
     techUsed: ['JavaScript', 'CSS', 'HTML'],
     cardImg: todo_list,
     codeLive: 'https://aizjicod.github.io/to-do-list/dist/',
@@ -27,7 +27,7 @@ const projectsData: project[] = [
   },
   {
     name: 'Math-Magicians',
-    description: 'On this app, I will be using react to create a single web page which will include a calculator as well as quotes on another instance of the page',
+    description: 'This app was made using React to create a single web page. The User can browse through the links on top for three different options, calculator, about, and quotes. On the calculator instance, the User can do simple math equations and on the quotes instance, the User can see random quotes each time they visit that instance.',
     techUsed: ['JavaScript', 'React', 'CSS'],
     cardImg: calculator,
     codeLive: 'https://calculatorapp-aiziji.netlify.app/',
@@ -35,7 +35,7 @@ const projectsData: project[] = [
   },
   {
     name: 'Space Travelers Hub',
-    description: ' It was done using the SpaceEx API. On this website, you can check SpaceEx rockets and missions, and book them so they appear on the My Profile tab, on the profile you can follow links directly to their respective Wikipedia page.',
+    description: 'It was done using the SpaceEx API. On this website, you can check SpaceEx rockets and missions, and book them so they appear on the My Profile tab, on the profile you can follow links directly to their respective Wikipedia page.',
     techUsed: ['React', 'Redux', 'JavaScript', 'CSS', 'HTML', 'Jest'],
     cardImg: space_traveler,
     codeLive: 'https://stellular-kataifi-d33ffc.netlify.app/',
@@ -43,7 +43,7 @@ const projectsData: project[] = [
   },
   {
     name: 'Weather app',
-    description: 'This app was created using an API. the user can search for a certain location. after the location is fetch it will return a list of different location that matches the input.',
+    description: 'This app was created using React and an API. The user can search for a certain location. After the location is fetched it returns a list of different location that matches the input.',
     techUsed: ['Redux', 'React', 'JavaScript', 'API', 'HTML', 'CSS'],
     cardImg: weather,
     codeLive: 'https://weather-aiziji.netlify.app/',
@@ -51,7 +51,7 @@ const projectsData: project[] = [
   },
   {
     name: 'Bike rental',
-    description: 'A Rails API as a backend, and React front-end project. The user can signup or log in, then it will be redirected to the home page after a successful login. The user can see all the models of bikes on the page, after clicking them the user can add a reservation to a specific bike and if the user wants to add or delete a reservation.',
+    description: 'This project has a Rails API as a backend, and React front-end project. The user can signup or log in, then it will be redirected to the home page after a successful login. The user can see all the models of bikes on the page, after clicking them the user can add a reservation to a specific bike and if the user wants to add or delete a reservation.',
     techUsed: ['React', 'Redux', 'HTML', 'CSS', 'API', 'Ruby on Rails', 'JavaScript'],
     cardImg: bike_rental,
     codeLive: 'https://ducati-rentals.netlify.app/',

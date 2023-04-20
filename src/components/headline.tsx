@@ -14,9 +14,9 @@ const Headline = () => (
         I'm a Software Developer
       </p>
       <p className="headline-para">
-        I can help you build a product , feature or website Look through some of my work and
-        experience! If you like what you see and have a project you need coded,
-        don’t hestiate to contact me.</p>
+      I can help you build a product, feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coding,
+        don’t hesitate to contact me.</p>
     </div>
     <div className='social-media'>
       <ul className="social-icons">
