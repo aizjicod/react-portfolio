@@ -10,6 +10,14 @@ export type project = { name: string, description: string, techUsed: string[], c
 // search how to do it in a better way
 const projectsData: project[] = [
   {
+    name: 'Bike rental',
+    description: 'This project has a Rails API as a backend, and React front-end project. The user can signup or log in, then it will be redirected to the home page after a successful login. The user can see all the models of bikes on the page, after clicking them the user can add a reservation to a specific bike and if the user wants to add or delete a reservation.',
+    techUsed: ['React', 'Redux', 'HTML', 'CSS', 'API', 'Ruby on Rails', 'JavaScript'],
+    cardImg: bike_rental,
+    codeLive: 'https://ducati-rentals-aiziji.netlify.app',
+    codeSource: 'https://github.com/aizjicod/final-capstone-frontend',
+  },
+  {
     name: 'Pokemon',
     description: 'Pokemon is a web app that simulates a Pokedex showing the Pokemon of a certain type. The user can choose the type of Pokemon they want to see. The app shows the Pokemon of that type. The user can see the name, type, and image of the Pokemon. The user can also see the games the Pokemon is in.',
     techUsed: ['JavaScript', 'Jest', 'Webpack', 'CSS', 'HTML'],
@@ -48,14 +56,6 @@ const projectsData: project[] = [
     cardImg: weather,
     codeLive: 'https://weather-aiziji.netlify.app/',
     codeSource: 'https://github.com/aizjicod/weather-app-react',
-  },
-  {
-    name: 'Bike rental',
-    description: 'This project has a Rails API as a backend, and React front-end project. The user can signup or log in, then it will be redirected to the home page after a successful login. The user can see all the models of bikes on the page, after clicking them the user can add a reservation to a specific bike and if the user wants to add or delete a reservation.',
-    techUsed: ['React', 'Redux', 'HTML', 'CSS', 'API', 'Ruby on Rails', 'JavaScript'],
-    cardImg: bike_rental,
-    codeLive: 'https://ducati-rentals.netlify.app/',
-    codeSource: 'https://github.com/AbrahaKahsay/final-capstone-frontend',
   },
 ]
 export default projectsData
