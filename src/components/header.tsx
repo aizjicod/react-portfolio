@@ -1,9 +1,11 @@
 import { useState } from "react";
 
 const Header = () => {
-  const [clicked, ChangeClicked] = useState(false)
+  const [
+    clicked, ChangeClicked
+  ] = useState(false)
   const handleOnClick = () => {
-    ChangeClicked(prev => !prev)
+    ChangeClicked((prev) => !prev)
   }
 
   return (

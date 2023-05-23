@@ -6,7 +6,9 @@ import { useEffect, useState } from "react"
 
 const About = () => {
   AOS.init();
-  const [isDesktop, setIsDesktop] = useState(false)
+  const [
+    isDesktop, setIsDesktop
+  ] = useState(false)
   useEffect(() => {
     const mql = window.matchMedia("(min-width: 768px)");
     const onChange = () => setIsDesktop(!!mql.matches);
