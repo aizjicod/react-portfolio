@@ -6,7 +6,9 @@ import { useEffect, useState } from "react"
 
 const About = () => {
   AOS.init();
-  const [isDesktop, setIsDesktop] = useState(false)
+  const [
+    isDesktop, setIsDesktop
+  ] = useState(false)
   useEffect(() => {
     const mql = window.matchMedia("(min-width: 768px)");
     const onChange = () => setIsDesktop(!!mql.matches);
@@ -23,7 +25,8 @@ const About = () => {
         data-aos-easing={isDesktop ? "ease-in-sine" : ""}>
         <h2>About me</h2>
         <p>
-          Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+          I love building new and innovative solutions for the Web while solving all kinds of challenges that come along with the tasks.
+          I've also spent much time completely immersed in remote development with people from different , developing from landing pages to using APIs.
         </p>
         <div className="button-div">
           <button type="button" >
@@ -59,6 +62,8 @@ const About = () => {
           <li>Codepen</li>
           <li>Gitlab</li>
           <li>Terminal</li>
+          <li>Pair-Programming</li>
+          <li>Mentoring</li>
         </ul>
       </article>
     </section>

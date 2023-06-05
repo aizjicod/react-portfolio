@@ -152,7 +152,7 @@
 }
 
 #about #skills ul.skills::before {
-  top: 60%;
+  top: 50%;
   left: -10%;
   background-image: url('../assets//projects-tech/terminal.png');
   transform: rotate(20deg);
